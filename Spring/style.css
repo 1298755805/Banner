@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+
+header > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > div > img {
+  display: block;
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+}
